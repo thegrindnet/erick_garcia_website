@@ -1,6 +1,6 @@
 import "./Header.css";
 
-export default function Header(onInfo) {
+export default function Header({ onInfo }) {
   return (
     <header className="header">
       <div className="container header-content">
