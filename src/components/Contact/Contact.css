@@ -1,0 +1,51 @@
+.contact-section {
+  background: radial-gradient(
+      circle at top left,
+      rgba(252, 211, 77, 0.35),
+      transparent 35%
+    ),
+    #dc2626;
+  color: white;
+  text-align: center;
+  padding: 90px 0;
+}
+
+.contact-content {
+  max-width: 820px;
+}
+
+.phone-icon {
+  width: 82px;
+  height: 82px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+  font-size: 40px;
+}
+
+.contact-section p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.contact-phone {
+  display: inline-block;
+  margin-top: 30px;
+  background-color: white;
+  color: #dc2626;
+  font-size: clamp(28px, 5vw, 42px);
+  font-weight: 900;
+  padding: 18px 34px;
+  border-radius: 16px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+}
+
+.contact-phone:hover {
+  background-color: #fde68a;
+}
+
+.location {
+  margin-top: 20px;
+}

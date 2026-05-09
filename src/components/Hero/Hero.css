@@ -1,0 +1,152 @@
+.hero {
+  min-height: 100vh;
+  padding-top: 100px;
+  background: radial-gradient(
+      circle at top right,
+      rgba(220, 38, 38, 0.35),
+      transparent 35%
+    ),
+    linear-gradient(135deg, #0f172a, #1f2937);
+  color: white;
+}
+
+.hero-content {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 48px;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.emergency-label {
+  display: inline-block;
+  background-color: #dc2626;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+.small-heading {
+  color: #fcd34d;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.hero h1 {
+  font-size: clamp(42px, 7vw, 76px);
+  line-height: 1;
+  font-weight: 900;
+  max-width: 820px;
+}
+
+.hero h1 span {
+  display: block;
+  color: #fcd34d;
+}
+
+.hero-description {
+  color: #e5e7eb;
+  font-size: 20px;
+  line-height: 1.7;
+  margin-top: 24px;
+  max-width: 680px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 34px;
+}
+
+.primary-button,
+.secondary-button {
+  font-size: 18px;
+  padding: 16px 28px;
+}
+
+.secondary-button {
+  background-color: white;
+  color: #111827;
+  font-weight: 900;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.secondary-button:hover {
+  background-color: #fde68a;
+}
+
+.trust-list {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.trust-list span {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 10px 14px;
+  border-radius: 999px;
+  color: #e5e7eb;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.hero-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 28px;
+  padding: 22px;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+}
+
+.hero-card-header {
+  background-color: #dc2626;
+  padding: 24px;
+  border-radius: 22px;
+  margin-bottom: 18px;
+}
+
+.hero-card-header p {
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fee2e2;
+  margin-bottom: 8px;
+}
+
+.hero-card-header h2 {
+  font-size: 30px;
+}
+
+.mini-service-card {
+  display: flex;
+  gap: 16px;
+  background-color: white;
+  color: #111827;
+  padding: 18px;
+  border-radius: 20px;
+  margin-bottom: 14px;
+}
+
+.mini-icon {
+  font-size: 32px;
+}
+
+.mini-service-card h3 {
+  margin-bottom: 6px;
+}
+
+.mini-service-card p {
+  color: #4b5563;
+  font-size: 14px;
+  line-height: 1.5;
+}
